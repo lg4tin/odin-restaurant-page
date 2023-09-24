@@ -1,0 +1,12 @@
+body {
+  /*background: 'background: url("../nik-owens-40OJLYVWeeM-unsplash.jpg")';*/
+  background-color: beige;
+}
+
+button {
+  cursor: pointer;
+}
+
+#content {
+  color: black;
+}
