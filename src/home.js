@@ -7,7 +7,7 @@ export function pageLoad() {
 
   let header = document.createElement('h1');
   header.textContent = 'The Best Pizza Shop';
-  add(header);
+  
 
   let ul = document.createElement('ul');
   ul.innerHTML = `
@@ -17,6 +17,12 @@ export function pageLoad() {
   `;
   ul.classList.add('nav-bar');
   add(ul);
+
+  let navBar = document.createElement('div');
+  navBar.classList.add('nav-bar-header')
+  add(navBar);
+  navBar.appendChild(header);
+  navBar.appendChild(ul);
 
   let callToAction = document.createElement('h1');
   callToAction.textContent = 'Come on down for some delicious pizza!';
@@ -48,8 +54,27 @@ export function pageLoad() {
         <p>sdcdscdsc</p>
       </div>
     </div>
-    <div></div>
+    <div>
+    <div>
+        <p>sdcdscdsc</p>
+      </div>
+      <div>
+        <p>sdcdscdsc</p>
+        <p>sdcdscdsc</p>
+      </div>
+      <div>
+        <p>sdcdscdsc</p>
+      </div>
+      <div>
+        <p>sdcdscdsc</p>
+        <p>sdcdscdsc</p>
+      </div>
+    </div>
   `;
+  restaurantInfo.classList.add('info');
   add(restaurantInfo);
 }
 
+export function hi() {
+  alert('hi');
+}
