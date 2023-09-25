@@ -39,42 +39,26 @@ export function pageLoad() {
   let restaurantInfo = document.createElement('div');
   restaurantInfo.innerHTML = `
     <div>
-      <div>
-        <p>sdcdscdsc</p>
+      <div class="menu-info">
+        <div>
+          <p>sdcdscdsc</p>
+        </div>
+        <div>
+          <p>555 Main St</p>
+          <p>Tampa, FL 33614</p>
+        </div>
       </div>
-      <div>
-        <p>sdcdscdsc</p>
-        <p>sdcdscdsc</p>
-      </div>
-      <div>
-        <p>sdcdscdsc</p>
-      </div>
-      <div>
-        <p>sdcdscdsc</p>
-        <p>sdcdscdsc</p>
-      </div>
-    </div>
-    <div>
-    <div>
-        <p>sdcdscdsc</p>
-      </div>
-      <div>
-        <p>sdcdscdsc</p>
-        <p>sdcdscdsc</p>
-      </div>
-      <div>
-        <p>sdcdscdsc</p>
-      </div>
-      <div>
-        <p>sdcdscdsc</p>
-        <p>sdcdscdsc</p>
+      <div class="menu-info">
+        <div>
+          <p>sdcdscdsc</p>
+        </div>
+        <div>
+          <p>Mon-Thurs: 11am-9pm</p>
+          <p>Fri-Sun: 12pm-10pm</p>
+        </div>
       </div>
     </div>
   `;
   restaurantInfo.classList.add('info');
   add(restaurantInfo);
-}
-
-export function hi() {
-  alert('hi');
 }

@@ -1,4 +1,4 @@
 import { pageLoad, hi } from './home.js';
 
-console.log('Hii');
+console.log('Hiii');
 pageLoad();

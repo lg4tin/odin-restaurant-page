@@ -11,6 +11,12 @@ button {
   padding: 15px 40px;
   border-radius: 40px;
   border: none;
+  transition: 1s;
+}
+
+button:hover {
+  background-color: brown;
+  color: white;
 }
 
 ul {
@@ -48,5 +54,13 @@ li:hover {
 
 .info {
   margin-top: 270px;
+  
+  background-color: black;
+  opacity: .5;
+
+}
+
+.menu-info {
   display: flex;
+  color: white;
 }
