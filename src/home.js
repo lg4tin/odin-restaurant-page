@@ -5,24 +5,9 @@ export function pageLoad() {
     content.appendChild(item);
   }
 
-  let header = document.createElement('h1');
-  header.textContent = 'The Best Pizza Shop';
-  
+  content.innerHTML = '';
 
-  let ul = document.createElement('ul');
-  ul.innerHTML = `
-    <li>Home</li>
-    <li>Menu</li>
-    <li>Contact Us</li>
-  `;
-  ul.classList.add('nav-bar');
-  add(ul);
-
-  let navBar = document.createElement('div');
-  navBar.classList.add('nav-bar-header')
-  add(navBar);
-  navBar.appendChild(header);
-  navBar.appendChild(ul);
+  document.body.style = 'background: url("../nik-owens-40OJLYVWeeM-unsplash.jpg");'
 
   let callToAction = document.createElement('h1');
   callToAction.textContent = 'Come on down for some delicious pizza!';

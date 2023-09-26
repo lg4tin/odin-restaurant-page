@@ -1,8 +1,5 @@
 body {
-  background: url('nik-owens-40OJLYVWeeM-unsplash.jpg');
   background-color: brown;
-  background-repeat: no-repeat;
-  background-size: cover;
   margin: 0px;
 }
 
@@ -16,7 +13,7 @@ button {
 
 button:hover {
   background-color: brown;
-  color: white;
+  color:white;
 }
 
 ul {
@@ -42,6 +39,9 @@ li:hover {
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  background: url('nik-owens-40OJLYVWeeM-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nav-bar-header {
@@ -50,6 +50,7 @@ li:hover {
   background-color: brown;
   margin: 0px;
   align-self: stretch;
+  color: white;
 }
 
 .info {
@@ -63,4 +64,9 @@ li:hover {
 .menu-info {
   display: flex;
   color: white;
+}
+
+.pics {
+  height: 60px;
+  width: 60px;
 }
