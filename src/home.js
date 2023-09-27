@@ -6,14 +6,16 @@ export function pageLoad() {
   }
 
   content.innerHTML = '';
+  content.style = 'padding-top: 100px;'
 
-  document.body.style = 'background: url("../nik-owens-40OJLYVWeeM-unsplash.jpg");'
+  document.body.style = 'background: url("../pics/nik-owens-40OJLYVWeeM-unsplash.jpg"); background-repeat: no-repeat; background-size: cover;'
 
   let callToAction = document.createElement('h1');
   callToAction.textContent = 'Come on down for some delicious pizza!';
+  callToAction.style = 'font-size: 48px;'
   add(callToAction);
 
-  let tampa = document.createElement('h4');
+  let tampa = document.createElement('h1');
   tampa.textContent = 'The Best in all of Tampa!';
   add(tampa);
 
@@ -25,9 +27,9 @@ export function pageLoad() {
   restaurantInfo.innerHTML = `
     <div>
       <div class="menu-info">
-        <div>
-          <p>sdcdscdsc</p>
-        </div>
+      <div>
+        <img src="../pics/home-account.svg" alt="gfhgf" class="icons">
+      </div>
         <div>
           <p>555 Main St</p>
           <p>Tampa, FL 33614</p>
@@ -35,7 +37,7 @@ export function pageLoad() {
       </div>
       <div class="menu-info">
         <div>
-          <p>sdcdscdsc</p>
+          <img src="../pics/clock-time-two-outline.svg" alt="fgh" class="icons">
         </div>
         <div>
           <p>Mon-Thurs: 11am-9pm</p>
@@ -47,3 +49,4 @@ export function pageLoad() {
   restaurantInfo.classList.add('info');
   add(restaurantInfo);
 }
+
