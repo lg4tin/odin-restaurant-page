@@ -94,12 +94,15 @@ li:hover {
 
 .menu-container {
   background-color: rgb(240, 209, 175);
+  color: black;
   padding: 100px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  gap: 30px;
   margin-bottom: 50px;
+  font-size: 34px;
 }
 
 .icons {
